@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cmpt276.assignment2.UI.MainActivity">
+
+    <item
+        android:id="@+id/menu_item_cancel"
+        android:orderInCategory="100"
+        android:title="cancel"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menu_item_editLens"
+        android:orderInCategory="100"
+        android:title="@string/edit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_deleteLens"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+
+
+
+</menu>
